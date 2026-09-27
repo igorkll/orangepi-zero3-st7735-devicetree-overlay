@@ -1,4 +1,5 @@
 # orangepi-zero3-st7735-devicetree-overlay
+![preview](https://raw.githubusercontent.com/igorkll/orangepi-zero3-st7735-devicetree-overlay/refs/heads/images/orangepi_zero3_st7735_connection.png)  
 device tree overlays and st7735 screen connection diagram for orange pi zero 3  
 this method will also allow you to use the GPU renderer on your display.  
 unlike management via userspace or fbtft  
