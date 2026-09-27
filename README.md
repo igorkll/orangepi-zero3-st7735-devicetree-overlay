@@ -2,7 +2,8 @@
 device tree overlays and st7735 screen connection diagram for orange pi zero 3  
 
 ## overlays
-* display.dtso - describes the connections of the display itself
+* display_128x160.dtso - describes the connections of the display itself (160x128)
+* display_128x128.dtso - describes the connections of the display itself (128x128)
 * disable_hdmi.dtso - disables the board's built-in HDMI port so that all applications and plymouth automatically use the display
 
 ## display connection
