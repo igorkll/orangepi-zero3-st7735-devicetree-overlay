@@ -24,3 +24,7 @@ unlike management via userspace or fbtft
 
 ## add overlay
 * armbian: sudo armbian-add-overlay display_128x160.dts (the repository contains files with the dtso and dtbo extensions. but you probably need to take the dtso and rename it to dts in order for utilities to accept it)
+
+## you may also be interested in the following projects
+* https://github.com/igorkll/syslbuild
+* https://github.com/igorkll/panel-mipi-dbi-firmwares-and-overlays
