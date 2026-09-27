@@ -1,5 +1,7 @@
 # orangepi-zero3-st7735-devicetree-overlay
 device tree overlays and st7735 screen connection diagram for orange pi zero 3  
+this method will also allow you to use the GPU renderer on your display.  
+unlike management via userspace or fbtft  
 
 ## overlays
 * display_128x160.dtso - describes the connections of the display itself (160x128)
