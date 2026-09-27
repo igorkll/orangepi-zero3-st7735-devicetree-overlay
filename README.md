@@ -21,3 +21,7 @@ unlike management via userspace or fbtft
 
 ## commands
 * compile dtbo from dtso: dtc -I dts -O dtb -o display.dtbo -@ display.dtso
+
+## add overlay
+* armbian: sudo armbian-add-overlay display_128x160.dts (the repository contains files with the dtso and dtbo extensions. but you probably need to take the dtso and rename it to dts in order for utilities to accept it)
+* 
