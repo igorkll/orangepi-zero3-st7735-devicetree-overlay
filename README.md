@@ -3,6 +3,7 @@
 device tree overlays and st7735 screen connection diagram for orange pi zero 3  
 this method will also allow you to use the GPU renderer on your display.  
 unlike management via userspace or fbtft  
+enable "CONFIG_DRM_ST7735R=m" or "CONFIG_TINYDRM_ST7735R=m" in the kernel config to use (depends on the kernel version)  
 
 ## overlays
 * display_128x160.dtso - describes the connections of the display itself (160x128)
